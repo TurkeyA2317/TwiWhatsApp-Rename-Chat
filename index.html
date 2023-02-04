@@ -1,3 +1,10 @@
 <h1>Rename Chat</h1>
-<h2>Bad things other people!!!
-  <button>Let's Go Rename</button>
+<h2>Bad things other people!!!</h2>
+<button onclick="rename()">Let's Go Rename</button>
+
+<script>
+  function rename() {
+    let newName = prompt("Enter a new chat name:", "Harry potter")
+    window.open("https://twi-whatsapp-app-like.bubbleapps.io/version-test/rename-chat?text=" + newName)
+  }
+</script>
